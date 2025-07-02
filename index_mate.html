@@ -1,0 +1,120 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>For My Mate ❤️‍🔥</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: #fff0f5;
+      color: #333;
+    }
+
+    header {
+      text-align: center;
+      padding: 20px;
+      background: #ff3366;
+      color: white;
+    }
+
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 15px;
+      padding: 20px;
+    }
+
+    .gallery figure {
+      margin: 0;
+      position: relative;
+    }
+
+    .gallery img {
+      width: 100%;
+      height: auto;
+      border-radius: 10px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+    }
+
+    .gallery figcaption {
+      text-align: center;
+      margin-top: 8px;
+      font-style: italic;
+      color: #444;
+    }
+
+    .video-section {
+      max-width: 600px;
+      margin: 40px auto;
+      text-align: center;
+    }
+
+    .video-section video {
+      width: 100%;
+      border-radius: 10px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+    }
+
+    .music-section {
+      text-align: center;
+      padding: 20px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #ff3366;
+      color: white;
+      margin-top: 40px;
+    }
+
+    @media screen and (max-width: 600px) {
+      .gallery {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>For My Mate ❤️‍🔥</h1>
+    <p>A gift from my heart to yours 💌</p>
+  </header>
+
+  <section class="gallery">
+    <figure>
+      <img src="photo1.jpeg" alt="Mate 1" />
+      <figcaption>That smile lights up my world 😍</figcaption>
+    </figure>
+    <figure>
+      <img src="photo2.jpeg" alt="Mate 2" />
+      <figcaption>Sunshine mixed with a little hurricane 🌞💥</figcaption>
+    </figure>
+  </section>
+
+  <section class="video-section">
+    <h2>🎥 A Memory With You</h2>
+    <video controls>
+      <source src="Mate_video.MOV" type="video/quicktime">
+      Your browser does not support the video tag.
+    </video>
+  </section>
+
+  <section class="music-section">
+    <h2>🎵 Our Song</h2>
+    <iframe style="border-radius:12px" 
+      src="https://open.spotify.com/embed/track/1jloWdvMh9nwHUu3mag8CL?utm_source=generator" 
+      width="100%" height="152" frameBorder="0" allowfullscreen="" 
+      allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" 
+      loading="lazy">
+    </iframe>
+  </section>
+
+  <footer>
+    <p>Made with ❤️ by Your Person</p>
+  </footer>
+</body>
+</html>
